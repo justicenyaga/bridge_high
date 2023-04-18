@@ -33,7 +33,9 @@ const HomePage = () => {
       <Col md={3}>
         <Image
           src={
-            userDetails.passport ? userDetails.passport : "/images/default.png"
+            userDetails.passport
+              ? userDetails.passport
+              : "https://bridgehigh.ams3.cdn.digitaloceanspaces.com/bridgehigh/images/default.png"
           }
           alt={userDetails.name}
           fluid

@@ -22,7 +22,11 @@ const Header = () => {
         <Container>
           <LinkContainer to="/">
             <Navbar.Brand>
-              <img src="/images/logo.png" alt="BRIDGE SCHOOL" height={30} />
+              <img
+                src="https://bridgehigh.ams3.cdn.digitaloceanspaces.com/bridgehigh/images/logo.png"
+                alt="BRIDGE SCHOOL"
+                height={30}
+              />
             </Navbar.Brand>
           </LinkContainer>
 
